@@ -7,12 +7,12 @@
     "npm": "6.12.1"
   },
   "eslintConfig": {
-		"settings": {
-			"react": {
-				"version": "999.999.999"
-			}
-		}
-	},
+    "settings": {
+      "react": {
+        "version": "999.999.999"
+      }
+    }
+  },
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run client\"",
@@ -40,7 +40,6 @@
   },
   "dependencies": {
     "body-parser": "^1.19.0",
-    "eslint-plugin-react": "^7.19.0",
     "cookie-parser": "^1.4.5",
     "express": "^4.17.1",
     "pg": "^8.0.0",
