@@ -5,6 +5,13 @@
     "node": "12.13.1",
     "npm": "6.12.1" 
   },
+  "eslintConfig": {
+		"settings": {
+			"react": {
+				"version": "999.999.999"
+			}
+		}
+	},
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -27,13 +34,6 @@
     "eject": "react-scripts eject"
   },
   "proxy": "http://localhost:5000",
-  "eslintConfig": {
-		"settings": {
-			"react": {
-				"version": "999.999.999"
-			}
-		}
-	},
   "browserslist": {
     "production": [
       ">0.2%",

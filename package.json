@@ -6,6 +6,13 @@
     "node": "12.13.1",
     "npm": "6.12.1"
   },
+  "eslintConfig": {
+		"settings": {
+			"react": {
+				"version": "999.999.999"
+			}
+		}
+	},
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run client\"",
@@ -40,12 +47,5 @@
     "react-scripts": "3.4.1",
     "request": "^2.88.2",
     "request-promise": "^4.2.5"
-  },
-  "eslintConfig": {
-		"settings": {
-			"react": {
-				"version": "999.999.999"
-			}
-		}
-	}
+  }
 }
