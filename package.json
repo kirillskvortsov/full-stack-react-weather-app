@@ -37,6 +37,7 @@
     "express": "^4.17.1",
     "pg": "^8.0.0",
     "request": "^2.88.2",
-    "request-promise": "^4.2.5"
+    "request-promise": "^4.2.5",
+    "react-scripts": "3.4.1"
   }
 }
