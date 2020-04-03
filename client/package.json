@@ -3,15 +3,15 @@
   "version": "0.1.0",
   "engines": {
     "node": "12.13.1",
-    "npm": "6.12.1" 
+    "npm": "6.12.1"
   },
   "eslintConfig": {
-		"settings": {
-			"react": {
-				"version": "999.999.999"
-			}
-		}
-	},
+    "settings": {
+      "react": {
+        "version": "999.999.999"
+      }
+    }
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -19,6 +19,7 @@
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.4.1",
     "build": "^0.1.4",
+    "eslint-plugin-react": "^7.19.0",
     "install": "^0.13.0",
     "npm": "^6.14.4",
     "react": "^16.13.1",
