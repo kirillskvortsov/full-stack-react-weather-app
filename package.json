@@ -2,6 +2,10 @@
   "name": "full-stack-react-weather-app",
   "version": "1.0.0",
   "description": "Full-stack React Weather App",
+  "engines": {
+    "node": "12.13.1",
+    "npm": "6.12.1" 
+  },
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run client\"",
