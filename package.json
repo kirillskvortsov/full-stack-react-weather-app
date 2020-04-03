@@ -4,7 +4,7 @@
   "description": "Full-stack React Weather App",
   "engines": {
     "node": "12.13.1",
-    "npm": "6.12.1" 
+    "npm": "6.12.1"
   },
   "main": "index.js",
   "scripts": {
@@ -29,6 +29,7 @@
   "homepage": "https://github.com/kirillskvortsov/full-stack-react-weather-app#readme",
   "devDependencies": {
     "concurrently": "^5.1.0",
+    "eslint-plugin-react": "^7.19.0",
     "nodemon": "^2.0.2"
   },
   "dependencies": {
@@ -36,8 +37,8 @@
     "cookie-parser": "^1.4.5",
     "express": "^4.17.1",
     "pg": "^8.0.0",
+    "react-scripts": "3.4.1",
     "request": "^2.88.2",
-    "request-promise": "^4.2.5",
-    "react-scripts": "3.4.1"
+    "request-promise": "^4.2.5"
   }
 }
