@@ -5,13 +5,6 @@
     "node": "12.13.1",
     "npm": "6.12.1"
   },
-  "eslintConfig": {
-    "settings": {
-      "react": {
-        "version": "999.999.999"
-      }
-    }
-  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

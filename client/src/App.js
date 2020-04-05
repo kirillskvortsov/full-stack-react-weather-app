@@ -31,7 +31,7 @@ class App extends Component {
     .then(res => res.json())
     .then(res => {
       var cityList = res.map(r => r.city_name);
-      this.setState({cityList});
+      this.setState({ cityList });
     });
   };
 
@@ -59,15 +59,15 @@ class App extends Component {
       console.log(weather);
       this.setState({ weather });
     });
-  };
+  }
 
   handleChangeCity = (e) => {
     this.getWeather(e.target.value);
-  };
+  }
 
-  componentDidMount() {
+  componentDidMount () {
     this.getCityList();
-  };
+  }
 
   render() {
     return (
